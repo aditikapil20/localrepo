@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class loops {
     
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner s = new Scanner(System.in);
         
         System.out.print("Enter the number of rows for the pyramid: ");
-        int rows = scanner.nextInt();
+        int rows = s.nextInt();
 
         System.out.println("\nPyramid Pattern:");
         for (int i = 1; i <= rows; i++) {
@@ -23,6 +23,6 @@ public class loops {
             System.out.println();
         }
 
-        scanner.close();
+        s.close();
     }
 }
